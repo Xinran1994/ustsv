@@ -1,0 +1,11 @@
+*Two ways to create thread
+**mThread.java, runnableThread.java
+*Explain what is volatile
+**
+Name examples of Nonblocking data structure, and blocking data structure
+Implement a threadpool
+What is CAS
+--- Write a program, with two threads running  a counter. 
+Get familiar with Gabage collection.
+Review sample code for counting semaphore, volatile, read-write-lcok, threadpool, singleton. 
+p1-p6 on the slides. Check into you github.
