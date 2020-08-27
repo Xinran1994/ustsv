@@ -1,11 +1,27 @@
-*Two ways to create thread
-**mThread.java, runnableThread.java
-*Explain what is volatile
-**
-Name examples of Nonblocking data structure, and blocking data structure
-Implement a threadpool
-What is CAS
---- Write a program, with two threads running  a counter. 
-Get familiar with Gabage collection.
-Review sample code for counting semaphore, volatile, read-write-lcok, threadpool, singleton. 
-p1-p6 on the slides. Check into you github.
+1. Two ways to create thread
+mThread.java, runnableThread.java
+
+2. Explain what is volatile
+Java volatile variables are variables that are always read directly from main memory. When a new value is assigned to a volatile variable the value is always written immediately to main memory. 
+
+3. Name examples of Nonblocking data structure, and blocking data structure
+non-blocking : Volatile variables, AtomicLong variable, 
+blocking:      lock, synchronized block
+
+4. Implement a threadpool
+threadPool.java, Task.java, Main.java
+or ThreadPool2, poolThread2
+
+5. What is CAS
+Compare and swap is a technique used when designing concurrent algorithms. Basically, compare and swap compares an expected value to the concrete value of a variable, and if the concrete value of the variable is equals to the expected value, swaps the value of the variable for a new variable. 
+
+6. --- Write a program, with two threads running a counter. 
+twoThread.java
+
+7. Get familiar with Garbage collection.
+https://www.baeldung.com/jvm-garbage-collectors
+
+8. Review sample code for counting semaphore, volatile, read-write-lock, threadpool, singleton. 
+
+
+9. p1-p6 on the slides. Check into you github.

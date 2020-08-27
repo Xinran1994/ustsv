@@ -1,4 +1,4 @@
-package mThread;
+package assgn5;
 
 public class runnableThread implements Runnable {
 	
